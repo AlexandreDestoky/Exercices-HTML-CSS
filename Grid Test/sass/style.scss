@@ -1,10 +1,136 @@
-nav {
-  color:red;
-  ul {
-    color:blue;
-    li {
-      color:green;
-      font-size: large;
-    }
+body {
+  margin:0;
+  padding:0;
+}
+
+
+.container {
+  width:800px;
+  margin: 20px auto;
+  display: grid;
+  height:720px;
+  background:rgb(0, 0, 0);
+  border:4px solid rgb(199, 84, 84);
+
+  //Grille
+
+  // grid-template-rows: 150px 150px;
+  // grid-template-rows: repeat(6,150px);
+  // grid-template-rows: 1fr 2fr;
+
+  // grid-template-columns: 150px 150px;
+  // grid-template-columns: repeat(4,150px);
+  // grid-template-columns: repeat(4,auto);
+  // grid-template-columns: repeat(4,1fr);
+  // grid-template-rows: repeat(6,1fr);
+  grid-template: repeat(5,100px) / repeat(4,150px);
+  // grid-template-columns: repeat(3,1fr) auto;
+  // grid-template-columns: 1fr 2fr 1fr;  
+
+
+  // grid-column-gap: 3%;
+  // grid-row-gap: 10px;
+  // grid-gap:10px 3%;
+  gap:10px 2%;
+
+  justify-content: space-between;
+  align-content: space-between;
+
+
+
+  justify-items: end;
+  align-items: end;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  //Style
+  > * {
+     color:white;
+     text-shadow: 3px 3px 3px black;
+     font-size: 1.5rem;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     width: 100px;
+     height:80px;
+    //  padding:.3em;
+    //  text-align: center;
+    // justify-self: center;
+    // align-self: center;
+  }
+  .item1 {
+    background-color: #003049;
+  }
+  .item2 {
+    background-color: #d62828;
+  }
+  .item3 {
+    background-color: #f77f00;
+    justify-self: center;
+    align-self: center;
+  }
+  .item4 {
+    background-color: #fcbf49;
+  }
+  .item5 {
+    background-color: #2ec4b6;
+  }
+  .item6 {
+    background-color: #432818;
+    // grid-column-start: 2;
+    // grid-column-end:4;
+    grid-column: span 3;
+    grid-row:span 2;
+    // grid-area:2/1/5/4;
+    // grid-row-start: 1;
+    // grid-row-end:3;
+    // grid-area: 1/2/3/4;
+    // grid-area: 1 /2 / span 3 / span 2 ;
+  }
+  .item7 {
+    background-color: #2176ff;
+  }
+  .item8 {
+    background-color: #086e58;
+  }
+  .item9 {
+    background-color: #9cadce;
+  }
+  .item10 {
+    background-color: #424b54;
+  }
+  .item11 {
+    background-color: #e55381;
+  }
+  .item12 {
+    background-color: #fadda5;
   }
 }
