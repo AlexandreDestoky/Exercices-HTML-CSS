@@ -26,7 +26,7 @@ body {
           align-items: end;
 }
 
-.container > * {
+.container .item {
   color: white;
   text-shadow: 3px 3px 3px black;
   font-size: 1.5rem;
@@ -35,15 +35,15 @@ body {
   height: 80px;
 }
 
-.container .item1 {
+.container .item--1 {
   background-color: #003049;
 }
 
-.container .item2 {
+.container .item--2 {
   background-color: #d62828;
 }
 
-.container .item3 {
+.container .item--3 {
   background-color: #f77f00;
   -ms-grid-column-align: center;
       justify-self: center;
@@ -52,41 +52,41 @@ body {
       align-self: center;
 }
 
-.container .item4 {
+.container .item--4 {
   background-color: #fcbf49;
 }
 
-.container .item5 {
+.container .item--5 {
   background-color: #2ec4b6;
 }
 
-.container .item6 {
+.container .item--6 {
   background-color: #432818;
   grid-column: span 3;
   grid-row: span 2;
 }
 
-.container .item7 {
+.container .item--7 {
   background-color: #2176ff;
 }
 
-.container .item8 {
+.container .item--8 {
   background-color: #086e58;
 }
 
-.container .item9 {
+.container .item--9 {
   background-color: #9cadce;
 }
 
-.container .item10 {
+.container .item--10 {
   background-color: #424b54;
 }
 
-.container .item11 {
+.container .item--11 {
   background-color: #e55381;
 }
 
-.container .item12 {
+.container .item--12 {
   background-color: #fadda5;
 }
 /*# sourceMappingURL=style.css.map */
